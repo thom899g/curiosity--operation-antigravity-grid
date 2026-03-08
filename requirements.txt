@@ -1,0 +1,31 @@
+# Core Dependencies
+firebase-admin>=6.0.0
+psutil>=5.9.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+docker>=6.0.0
+ray>=2.7.0
+dask>=2023.10.0
+ccxt>=4.1.0
+
+# Optional GPU support (install as needed)
+nvidia-ml-py>=12.0.0
+pyamdgpu>=0.2.0
+
+# Monitoring & Metrics
+bcc>=0.28.0
+prometheus-client>=0.19.0
+
+# Cloud integration
+boto3>=1.34.0
+google-cloud-compute>=1.14.0
+
+# Type hints and validation
+pydantic>=2.5.0
+typing-extensions>=4.9.0
+
+# Logging and configuration
+structlog>=23.0.0
+python-json-logger>=2.0.0
+pyyaml>=6.0.0
